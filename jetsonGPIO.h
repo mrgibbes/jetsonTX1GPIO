@@ -93,6 +93,30 @@ enum jetsonTX2GPIONumber {
   gpio398 = 398,     // J21 - Pin 29 - GPIO19_AUD_RST
 } ;
 
+enum jetsonTXNanoGPIONumber {
+  gpio216 = 216;  // Pin 07 - AUDIO_MCLK
+  gpio50 = 50;    // Pin 11 - UART_2_RTS
+  gpio79 = 79;    // Pin 12 - I2S_4_SCLK
+  gpio14 = 14;    // Pin 13 - SPI_2_SCK
+  gpio194 = 194;  // Pin 15 - LCD_TE
+  gpio232 = 232;  // Pin 16 - SPI_2_CS1
+  gpio15 = 15;    // Pin 18 - SPI_2_CS0
+  gpio16 = 16;    // Pin 19 - SPI_1_MOSI
+  gpio17 = 17;    // Pin 21 - SPI_1_MISO
+  gpio13 = 13;    // Pin 22 - SPI_2_MISO
+  gpio18 = 18;    // Pin 23 - SPI_1_SCK
+  gpio19 = 19;    // Pin 24 - SPI_1_CS0
+  gpio20 = 20;    // Pin 26 - SPI_1_CS1
+  gpio149 = 149;  // Pin 29 - CAM_AF_EN
+  gpio200 = 200;  // Pin 31 - GPIO_PZ0
+  gpio168 = 168;  // Pin 32 - LCD_BL_PWM
+  gpio38 = 38;    // Pin 33 - GPIO_PE6
+  gpio76 = 76;    // Pin 35 - I2S_4_LRCK
+  gpio51 = 51;    // Pin 26 - UART_2_CTS
+  gpio12 = 12;    // Pin 37 - SPI_2_MOSI
+  gpio77 = 77;    // Pin 38 - I2S_4_SDIN
+  gpio78 = 78;    // Pin 40 - I2S_4_SDOUT
+} ;
 
 int gpioExport ( jetsonGPIO gpio ) ;
 int gpioUnexport ( jetsonGPIO gpio ) ;
